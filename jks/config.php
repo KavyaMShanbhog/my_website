@@ -1,0 +1,11 @@
+<html>
+	
+	<body>
+		<?php
+$con =mysqli_connect("localhost","root","") or die("Unable to connect");
+mysqli_select_db($con,"login_db");
+
+?>
+		
+	</body>
+</html>
